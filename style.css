@@ -18,10 +18,35 @@ body {
     text-align: center;
 }
 .heading h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: darkmagenta;
 }
-.heading p {
+
+/* MONTH AREA */
+
+.month ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 18px;
+}
+.month button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid slateblue;
+    background-color: burlywood;
+}
+.month button:hover {
+    background-color: royalblue;
+}
+.month ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+.month p {
+    margin: 0;
+    padding: 10px;
     font-size: 20px;
     color: darkblue;
 }
@@ -35,16 +60,16 @@ body {
 }
 .day ul li {
     list-style: none;
-    background-color: lightgreen;
+    background-color: #F5B0A3;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 18px;
+    padding: 10px;
     font-size: 18px;
     border-radius: 10px;
 }
 .day ul li:hover {
-    background-color: greenyellow;
+    background-color: #EB6347;
     border-radius: 30px 15px;
     font-style: italic;
     font-family: sans-serif;
@@ -54,7 +79,7 @@ body {
 /* DATE AREA */
 
 .date {
-    padding-top: 15px;
+    padding-top: 10px; 
 }
 .date ul {
     display: grid;
@@ -66,7 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     list-style: none;
-    background-color: saddlebrown;
+    background-color: #8DB9A8;
     font-size: 18px;
     color: whitesmoke;
     padding: 20px;
